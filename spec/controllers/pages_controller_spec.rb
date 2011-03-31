@@ -26,7 +26,7 @@ describe PagesController do
     it "should have the right title" do
       get 'contact'
       response.should have_selector("title",
-                        :content => "Labor Kempten Auftragserfassung | Kontakt")
+                        :content => "Labor Kempten Auftragserfassung | Contact")
     end
   end
 
